@@ -1,5 +1,6 @@
 import math
 
+print("Welcome to the Paint Coverage Calculator.")
 def paint_calc(height, width, cover):
     coverage = (height*width)/cover
     calc = math.ceil(coverage)
